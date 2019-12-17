@@ -1,0 +1,60 @@
+#footBox{position: relative; width: 100%; height: 430px;border-top: solid 1px #fff; background-color: #000;}
+.servicewrap{position: absolute; top: 0;left: 0; right: 0;  margin: auto; width: 80%; height: 400px;}
+.footer_side{float: left; width: 30%;height: 400px;
+>.logo{width: 100%; height: 20%;
+>ul{width: 100%;height: 100%;
+>li{float: left; width:50%; height: 100%; margin: auto; background-position: 50% 50%; background-repeat: no-repeat;background-size: contain;
+&:first-child{background-image: url(../../img/logo/logo.png);}
+&:last-child{ background-image: url(../../img/logo/GenuineProductCertificationLogo.png);}
+}
+}
+}//logo
+}//footer_side
+.service_center{width: 100%;height: 80%;
+  >ul{width: 100%;height: 100%;box-sizing: border-box; padding: 2rem;
+  >li{font-size: 20px; color: #666;text-align: center;
+   &:first-child{margin-bottom: 1.5rem;}
+  >a {color: #fff;font-weight: bold;}
+  }//li
+  }//ul
+  }//service_Center
+.footer_main{float: left; width: 50%; height: 400px;}//.footer_main
+.footer_nav{width: 100%; height: 20%; 
+>ul{width: 100%;height: 50px;margin-left: 70px; box-sizing: border-box; padding: 1rem;
+>li{float: left;width: 120px; height: 50px;line-height: 50px;text-align: center; margin-right: 20px; 
+&:nth-child(2){width: 150px;}
+&:last-child{margin-right: 0;}
+>a{width: 100%;height: 100%; color: #fff; font-weight: bold; font-size: 18px;}}
+}//ul
+}//.footer_nav
+.footer_news{width: 100%; height: 50%;
+>p{ text-align: center;box-sizing: border-box;padding: 1rem; font-size: 18px; color: #fff;}
+>form{width: 100%;height: auto;
+>fieldset{width: 100%;height: 100px; text-align: center;line-height: 100px;}
+#mailCheck{width: 300px; height: 40px; line-height: 20px;}
+.btnicon{width: 110px; height: 40px; line-height: 20px; border:0;font-size: 15px; font-weight: bold; border: solid 0.1rem #fff; color: #fff; background-color: #000;}
+
+}
+}//news
+.address{width: 100%; height: 30%; text-align: center;
+>ul{width: 100%;height: 100%; box-sizing: border-box;
+>li{color: #666;
+>a{color: #fff;}
+}
+}
+}//address
+.sns{float: left; width: 20%; height: 400px; margin-top: 15px;
+>h3{margin-top: 5px; font-size: 30px; text-align: center; color: #fff;}
+>ul{width: 100%;height: 100%;box-sizing: border-box; padding: 1rem;
+>li{ width: 100px;height: 75px; margin:auto;
+
+>a{display: block; width: 50px; height: 75px;margin: auto; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;}
+&:nth-child(1)>a{background-image: url(../../img/sns/f_logo_RGB-Blue_100.png);}
+&:nth-child(2)>a{background-image: url(../../img/sns/349-3493616_instagram-circle-logo-transparent-hd-png-download.png);}
+&:nth-child(3)>a{background-image: url(../../img/sns/youtube_social_circle_white.png);}
+&:nth-child(4)>a{background-image: url(../../img/sns/Twitter_Social_Icon_Circle_Color.png);}
+}
+}}
+
+.text{position: absolute; width: 100%;height: 30px; line-height: 30px; bottom: 0; background-color: #333;
+>p{ text-align: center; font-size: 15px; color: #fff;}}
