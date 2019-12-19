@@ -4,7 +4,7 @@
 
 
 
-#conBox{width: 100%;height: 5000px;}//conBox
+#conBox{width: 100%;height: 4800px;}//conBox
 .viewBox{position: relative; width: 100%;height: 650px; padding-top:100px;  background-color: #fff;}
 .indicator{position: absolute;bottom: 20%; z-index: 100; width: 100%;height: auto;margin:auto;
 >ul{float: right; width: 20%; height: 300px; 
@@ -207,5 +207,23 @@ h2{width:100%;height: auto;margin: auto; text-align:center;margin-top: 50px; mar
 .video_ad{width: 100%; height: 1000px; padding: 5rem 0; box-sizing: border-box;
 >video{width: 100%;height: 850px;}//video
 }//video_ad
-.buty{width: 100%;height: 800px; background-color: #a5a;}
+.buty{width: 100%;height: 800px; 
+>ul{width: 1200px; height: 100%;box-sizing: border-box;padding-top: 150px; left: 30px; margin: auto;
+>li{float: left; margin-right: 15px; margin-bottom: 15px; background-repeat: no-repeat; background-size: cover;
+>a{display: block; width: 100%;height: 100%;
+&:hover{background-color: rgba(0,0,0,0.2);}
+>p{box-sizing: border-box;padding: 1rem; padding-top: 25%; color: #fff;
+>span{font-size: 18px; font-weight: bold;}}}
+&:nth-child(1){top: 200px;left: 280px; width: 200px;height: 200px; margin-top:100px; font-size: 20px; font-weight:bold;  background-color: #f00000;}
+&:nth-child(2){top: 100px; left: 500px; width: 300px;height: 300px; background-image: url(../../img/ysl/워터틴트.jpg);}
+&:nth-child(3){top: 200px;left: 820px;  width: 200px;height: 200px;margin-top: 100px; font-size: 20px; font-weight:bold; background-color:#DD3900;}
+&:nth-child(4){top: 100px;left: 1040px; width: 350px;height: 300px; background-image: url(../../img/ysl/파운데이션.jpg);}
+&:nth-child(5){top: 420px; left: 280px; width: 300px;height: 300px; background-image: url(../../img/ysl/향수.jpg);}
+&:nth-child(6){top: 420px; left: 600px; width: 200px;height: 200px;font-size: 20px; font-weight: bold; background-color: #4475CC;}
+&:nth-child(7){top: 420px; left: 820px; width: 300px;height: 300px;font-weight:bold; background-image: url(../../img/ysl/이니셜각인서비스.jpg);}
+&:nth-child(8){top: 420px;left: 1140px; width: 200px;height: 200px; background-color: #993fff;}
+
+}
+
+}}
 

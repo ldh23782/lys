@@ -6,9 +6,9 @@
  a{display: block; width: 100%; height: 100%;}
 }
 }//headBox
-#gnb{position: absolute; left: 30%; width: 50%; height: 100px;
-  >ul{ width: 700px; height: 100px; line-height: 100px;
-    >li{float: left;width: 100px; text-align: center; font-size: 18px;
+#gnb{float: left;width: 50%; height: 100px; margin-left: 150px;
+  >ul{ width: 100%; height: 100px; line-height: 100px;
+    >li{float: left;width: 120px; text-align: center; font-size: 18px;
     &:nth-child(1){margin-left: 50px;}
     &::after{content: " "; display: block; position:absolute;z-index:-1;
           top: 100px; width: 100%;height: 0;
