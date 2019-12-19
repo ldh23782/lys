@@ -16,11 +16,11 @@
 .view{width: 100%;height: 100%;
 >ul{position: relative; width: 100%;height: 650px;
 >li{position: absolute;top: 0;left: 0; width: 100%;height: 100%;
- &:nth-child(1)>a{background-image: url("../../img/ysl/ysl_bar01.jpg");}
- &:nth-child(2)>a{background-image: url("../../img/ysl/ysl_bar02.jpg");}
- &:nth-child(3)>a{background-image: url("../../img/ysl/ysl_bar03.jpg");}
- &:nth-child(4)>a{background-image: url("../../img/ysl/ysl_bar04.jpg");}
- &:nth-child(5)>a{background-image: url("../../img/ysl/ysl_bar05.jpg");}
+ &:nth-child(1)>a{background-image: url("../img/ysl/ysl_bar01.jpg");}
+ &:nth-child(2)>a{background-image: url("../img/ysl/ysl_bar02.jpg");}
+ &:nth-child(3)>a{background-image: url("../img/ysl/ysl_bar03.jpg");}
+ &:nth-child(4)>a{background-image: url("../img/ysl/ysl_bar04.jpg");}
+ &:nth-child(5)>a{background-image: url("../img/ysl/ysl_bar05.jpg");}
 >a{display: block; width: 100%;height: 100%; 
   background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}//a
 
@@ -37,15 +37,15 @@
     >li{float: left; width: 383px;height: 600px;background-color: #ccc; box-sizing:border-box; padding:2rem;
        background-color: #fff; border-right:1px solid #333;
 
-      &.beauti_01 .beauty_img{background-image: url(../../img/ysl/slide_01.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size:cover;}
-      &.beauti_02 .beauty_img{background-image: url(../../img/ysl/slide_02.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_03 .beauty_img{background-image: url(../../img/ysl/slide_03.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_04 .beauty_img{background-image: url(../../img/ysl/slide_04.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_05 .beauty_img{background-image: url(../../img/ysl/slide_05.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_06 .beauty_img{background-image: url(../../img/ysl/slide_06.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_07 .beauty_img{background-image: url(../../img/ysl/slide_07.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_08 .beauty_img{background-image: url(../../img/ysl/slide_08.jpg);background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
-      &.beauti_09 .beauty_img{background-image: url(../../img/ysl/slide_09.jpg);background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_01 .beauty_img{background-image: url(../img/ysl/slide_01.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size:cover;}
+      &.beauti_02 .beauty_img{background-image: url(../img/ysl/slide_02.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_03 .beauty_img{background-image: url(../img/ysl/slide_03.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_04 .beauty_img{background-image: url(../img/ysl/slide_04.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_05 .beauty_img{background-image: url(../img/ysl/slide_05.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_06 .beauty_img{background-image: url(../img/ysl/slide_06.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_07 .beauty_img{background-image: url(../img/ysl/slide_07.jpg); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_08 .beauty_img{background-image: url(../img/ysl/slide_08.jpg);background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
+      &.beauti_09 .beauty_img{background-image: url(../img/ysl/slide_09.jpg);background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
       &.beauti_07 .beauty_img .more_narr{width: 100%;}
       &.beauti_08 .beauty_img .more_narr{width: 100%;}
       &.beauti_09 .beauty_img .more_narr{width: 100%;}
@@ -183,11 +183,11 @@ h2{width:100%;height: auto;margin: auto; text-align:center;margin-top: 50px; mar
 .inner_wrap_02{width: 100%;height: 425px; background-color: #000;
 >ul{ width: 80%;height: 425px; margin: auto;
 >li{float: left;width: 20%;height: 425px;box-sizing: border-box; border: solid 0.5rem #fff;
-&:nth-child(1)>a{background-image: url("../../img/ysl/Advertising2.jpg");}
-&:nth-child(2)>a{background-image: url("../../img/ysl/Advertising4.jpg");}
-&:nth-child(3)>a{background-image: url("../../img/ysl/Advertising5.jpg");}
-&:nth-child(4)>a{background-image: url("../../img/ysl/Advertising3.jpg");}
-&:nth-child(5)>a{background-image: url("../../img/ysl/Advertising6.jpg");}
+&:nth-child(1)>a{background-image: url("../img/ysl/Advertising2.jpg");}
+&:nth-child(2)>a{background-image: url("../img/ysl/Advertising4.jpg");}
+&:nth-child(3)>a{background-image: url("../img/ysl/Advertising5.jpg");}
+&:nth-child(4)>a{background-image: url("../img/ysl/Advertising3.jpg");}
+&:nth-child(5)>a{background-image: url("../img/ysl/Advertising6.jpg");}
 >a{position: relative; display: block; width: 100%;height: 100%; background-repeat: no-repeat; background-size: cover;background-position: 50% 50%; overflow: hidden;}
 
 .view_pr{position: absolute; top:100%; left: 0;margin-bottom: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); box-sizing: border-box; padding: 3.5rem;
@@ -215,12 +215,12 @@ h2{width:100%;height: auto;margin: auto; text-align:center;margin-top: 50px; mar
 >p{box-sizing: border-box;padding: 1rem; padding-top: 25%; color: #fff;
 >span{font-size: 18px; font-weight: bold;}}}
 &:nth-child(1){top: 200px;left: 280px; width: 200px;height: 200px; margin-top:100px; font-size: 20px; font-weight:bold;  background-color: #f00000;}
-&:nth-child(2){top: 100px; left: 500px; width: 300px;height: 300px; background-image: url(../../img/ysl/워터틴트.jpg);}
+&:nth-child(2){top: 100px; left: 500px; width: 300px;height: 300px; background-image: url(../img/ysl/워터틴트.jpg);}
 &:nth-child(3){top: 200px;left: 820px;  width: 200px;height: 200px;margin-top: 100px; font-size: 20px; font-weight:bold; background-color:#DD3900;}
-&:nth-child(4){top: 100px;left: 1040px; width: 350px;height: 300px; background-image: url(../../img/ysl/파운데이션.jpg);}
-&:nth-child(5){top: 420px; left: 280px; width: 300px;height: 300px; background-image: url(../../img/ysl/향수.jpg);}
+&:nth-child(4){top: 100px;left: 1040px; width: 350px;height: 300px; background-image: url(../img/ysl/파운데이션.jpg);}
+&:nth-child(5){top: 420px; left: 280px; width: 300px;height: 300px; background-image: url(../img/ysl/향수.jpg);}
 &:nth-child(6){top: 420px; left: 600px; width: 200px;height: 200px;font-size: 20px; font-weight: bold; background-color: #4475CC;}
-&:nth-child(7){top: 420px; left: 820px; width: 300px;height: 300px;font-weight:bold; background-image: url(../../img/ysl/이니셜각인서비스.jpg);}
+&:nth-child(7){top: 420px; left: 820px; width: 300px;height: 300px;font-weight:bold; background-image: url(../img/ysl/이니셜각인서비스.jpg);}
 &:nth-child(8){top: 420px;left: 1140px; width: 200px;height: 200px; background-color: #993fff;}
 
 }
